@@ -29,7 +29,7 @@ searchForm.addEventListener('submit', async event => {
     if (data.hits.length === 0) {
       iziToast.info({
         message:
-          '❌ Sorry, there are no images matching your search query. Please try again!',
+          'Sorry, there are no images matching your search query. Please try again!',
         position: 'topRight',
         icon: false,
         close: false,

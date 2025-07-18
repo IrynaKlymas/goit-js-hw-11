@@ -6,10 +6,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
 
-/**
- * Створює HTML-розмітку для галереї зображень та додає її в контейнер.
- * @param {Array<Object>} images - Масив об'єктів зображень.
- */
 export function createGallery(images) {
   const galleryContainer = document.querySelector('.gallery');
   if (!galleryContainer) {
